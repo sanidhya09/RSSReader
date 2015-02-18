@@ -1,0 +1,14 @@
+/home/xicom/Downloads/RSSReader/rSSReader/build/intermediates/classes/release
+/home/xicom/Downloads/RSSReader/rSSReader/build/intermediates/pre-dexed/release/support-annotations-21.0.3-52e4edbe10c5f3c4581ed5016dfb65169df70f48.jar
+/home/xicom/Downloads/RSSReader/rSSReader/build/intermediates/pre-dexed/release/classes-c00c984df5e90a109f516d42ecf75961101d5ac0.jar
+/home/xicom/Downloads/RSSReader/rSSReader/build/intermediates/pre-dexed/release/otto-1.3.6-bfc74c7275a037bc680977b7039c787839c4dce4.jar
+/home/xicom/Downloads/RSSReader/rSSReader/build/intermediates/pre-dexed/release/okhttp-urlconnection-2.1.0-RC1-c24bfd12f5735233b603a09f89593791b57364a6.jar
+/home/xicom/Downloads/RSSReader/rSSReader/build/intermediates/pre-dexed/release/okio-1.0.1-47e4961f0123ce0b5bc27bccd5d7a5d3f33f39c8.jar
+/home/xicom/Downloads/RSSReader/rSSReader/build/intermediates/pre-dexed/release/retrofit-1.7.1-fb597f194acaee797c7a49481c7aff2f703bc0e5.jar
+/home/xicom/Downloads/RSSReader/rSSReader/build/intermediates/pre-dexed/release/picasso-2.4.0-be24a0c6de84580c20812d4695b74a9df07d5be6.jar
+/home/xicom/Downloads/RSSReader/rSSReader/build/intermediates/pre-dexed/release/gson-2.2.4-012fd0402803a68bbbbf96b724524c24b0040c86.jar
+/home/xicom/Downloads/RSSReader/rSSReader/build/intermediates/pre-dexed/release/internal_impl-21.0.3-8f177ea412604df92ce03ab7d3d20d376b5bb296.jar
+/home/xicom/Downloads/RSSReader/rSSReader/build/intermediates/pre-dexed/release/classes-c434d4672b2941c85e5c714bd81129ce634f7470.jar
+/home/xicom/Downloads/RSSReader/rSSReader/build/intermediates/pre-dexed/release/okhttp-2.1.0-RC1-493ccefc88180eef9ceb25f3c4f18941739c47c6.jar
+/home/xicom/Downloads/RSSReader/rSSReader/build/intermediates/pre-dexed/release/classes-3c81e6c647e2928ddea91c72b9993def17813747.jar
+/home/xicom/Downloads/RSSReader/rSSReader/build/intermediates/pre-dexed/release/classes-dd8a40aac8fd2db7e7b8b8a3fe335972874f70f7.jar

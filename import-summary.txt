@@ -1,0 +1,879 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From RSSReader:
+* Libraries/
+* Libraries/AppCompat/
+* Libraries/AppCompat/.classpath
+* Libraries/AppCompat/.project
+* Libraries/AppCompat/.settings/
+* Libraries/AppCompat/.settings/org.eclipse.jdt.core.prefs
+* Libraries/AppCompat/AndroidManifest.xml
+* Libraries/AppCompat/README.txt
+* Libraries/AppCompat/bin/
+* Libraries/AppCompat/bin/AndroidManifest.xml
+* Libraries/AppCompat/bin/R.txt
+* Libraries/AppCompat/bin/android-support-v7-appcompat_2.jar
+* Libraries/AppCompat/bin/android-support-v7-appcompat_flash.jar
+* Libraries/AppCompat/bin/android-support-v7-appcompat_rss.jar
+* Libraries/AppCompat/bin/classes/
+* Libraries/AppCompat/bin/classes/.readme
+* Libraries/AppCompat/bin/classes/android/
+* Libraries/AppCompat/bin/classes/android/support/
+* Libraries/AppCompat/bin/classes/android/support/v7/
+* Libraries/AppCompat/bin/classes/android/support/v7/appcompat/
+* Libraries/AppCompat/bin/classes/android/support/v7/appcompat/BuildConfig.class
+* Libraries/AppCompat/bin/classes/android/support/v7/appcompat/R$anim.class
+* Libraries/AppCompat/bin/classes/android/support/v7/appcompat/R$attr.class
+* Libraries/AppCompat/bin/classes/android/support/v7/appcompat/R$bool.class
+* Libraries/AppCompat/bin/classes/android/support/v7/appcompat/R$color.class
+* Libraries/AppCompat/bin/classes/android/support/v7/appcompat/R$dimen.class
+* Libraries/AppCompat/bin/classes/android/support/v7/appcompat/R$drawable.class
+* Libraries/AppCompat/bin/classes/android/support/v7/appcompat/R$id.class
+* Libraries/AppCompat/bin/classes/android/support/v7/appcompat/R$integer.class
+* Libraries/AppCompat/bin/classes/android/support/v7/appcompat/R$layout.class
+* Libraries/AppCompat/bin/classes/android/support/v7/appcompat/R$string.class
+* Libraries/AppCompat/bin/classes/android/support/v7/appcompat/R$style.class
+* Libraries/AppCompat/bin/classes/android/support/v7/appcompat/R$styleable.class
+* Libraries/AppCompat/bin/classes/android/support/v7/appcompat/R.class
+* Libraries/AppCompat/bin/jarlist.cache
+* Libraries/AppCompat/bin/res/
+* Libraries/AppCompat/bin/res/crunch/
+* Libraries/AppCompat/bin/res/crunch/drawable-hdpi/
+* Libraries/AppCompat/bin/res/crunch/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-hdpi/abc_ab_share_pack_holo_light.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-hdpi/abc_btn_check_to_on_mtrl_000.png
+* Libraries/AppCompat/bin/res/crunch/drawable-hdpi/abc_btn_check_to_on_mtrl_015.png
+* Libraries/AppCompat/bin/res/crunch/drawable-hdpi/abc_btn_radio_to_on_mtrl_000.png
+* Libraries/AppCompat/bin/res/crunch/drawable-hdpi/abc_btn_radio_to_on_mtrl_015.png
+* Libraries/AppCompat/bin/res/crunch/drawable-hdpi/abc_btn_switch_to_on_mtrl_00001.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-hdpi/abc_btn_switch_to_on_mtrl_00012.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-hdpi/abc_cab_background_top_mtrl_alpha.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-hdpi/abc_ic_ab_back_mtrl_am_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-hdpi/abc_ic_clear_mtrl_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-hdpi/abc_ic_commit_search_api_mtrl_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-hdpi/abc_ic_go_search_api_mtrl_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-hdpi/abc_ic_menu_copy_mtrl_am_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-hdpi/abc_ic_menu_cut_mtrl_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-hdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-hdpi/abc_ic_menu_paste_mtrl_am_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-hdpi/abc_ic_menu_selectall_mtrl_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-hdpi/abc_ic_menu_share_mtrl_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-hdpi/abc_ic_search_api_mtrl_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-hdpi/abc_ic_voice_search_api_mtrl_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-hdpi/abc_list_divider_mtrl_alpha.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-hdpi/abc_list_focused_holo.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-hdpi/abc_list_longpressed_holo.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-hdpi/abc_list_pressed_holo_dark.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-hdpi/abc_list_pressed_holo_light.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-hdpi/abc_list_selector_disabled_holo_dark.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-hdpi/abc_list_selector_disabled_holo_light.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-hdpi/abc_menu_hardkey_panel_mtrl_mult.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-hdpi/abc_popup_background_mtrl_mult.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-hdpi/abc_switch_track_mtrl_alpha.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-hdpi/abc_tab_indicator_mtrl_alpha.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-hdpi/abc_textfield_activated_mtrl_alpha.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-hdpi/abc_textfield_default_mtrl_alpha.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-hdpi/abc_textfield_search_activated_mtrl_alpha.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-hdpi/abc_textfield_search_default_mtrl_alpha.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-ldrtl-hdpi/
+* Libraries/AppCompat/bin/res/crunch/drawable-ldrtl-hdpi/abc_ic_ab_back_mtrl_am_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-ldrtl-hdpi/abc_ic_menu_copy_mtrl_am_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-ldrtl-hdpi/abc_ic_menu_cut_mtrl_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-ldrtl-hdpi/abc_spinner_mtrl_am_alpha.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-ldrtl-mdpi/
+* Libraries/AppCompat/bin/res/crunch/drawable-ldrtl-mdpi/abc_ic_ab_back_mtrl_am_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-ldrtl-mdpi/abc_ic_menu_copy_mtrl_am_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-ldrtl-mdpi/abc_ic_menu_cut_mtrl_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-ldrtl-mdpi/abc_spinner_mtrl_am_alpha.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-ldrtl-xhdpi/
+* Libraries/AppCompat/bin/res/crunch/drawable-ldrtl-xhdpi/abc_ic_ab_back_mtrl_am_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-ldrtl-xhdpi/abc_ic_menu_copy_mtrl_am_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-ldrtl-xhdpi/abc_ic_menu_cut_mtrl_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-ldrtl-xhdpi/abc_spinner_mtrl_am_alpha.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-ldrtl-xxhdpi/
+* Libraries/AppCompat/bin/res/crunch/drawable-ldrtl-xxhdpi/abc_ic_ab_back_mtrl_am_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-ldrtl-xxhdpi/abc_ic_menu_copy_mtrl_am_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-ldrtl-xxhdpi/abc_ic_menu_cut_mtrl_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-ldrtl-xxhdpi/abc_spinner_mtrl_am_alpha.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-ldrtl-xxxhdpi/
+* Libraries/AppCompat/bin/res/crunch/drawable-ldrtl-xxxhdpi/abc_ic_ab_back_mtrl_am_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-ldrtl-xxxhdpi/abc_ic_menu_copy_mtrl_am_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-ldrtl-xxxhdpi/abc_ic_menu_cut_mtrl_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-ldrtl-xxxhdpi/abc_spinner_mtrl_am_alpha.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-mdpi/
+* Libraries/AppCompat/bin/res/crunch/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-mdpi/abc_ab_share_pack_holo_light.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-mdpi/abc_btn_check_to_on_mtrl_000.png
+* Libraries/AppCompat/bin/res/crunch/drawable-mdpi/abc_btn_check_to_on_mtrl_015.png
+* Libraries/AppCompat/bin/res/crunch/drawable-mdpi/abc_btn_radio_to_on_mtrl_000.png
+* Libraries/AppCompat/bin/res/crunch/drawable-mdpi/abc_btn_radio_to_on_mtrl_015.png
+* Libraries/AppCompat/bin/res/crunch/drawable-mdpi/abc_btn_switch_to_on_mtrl_00001.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-mdpi/abc_btn_switch_to_on_mtrl_00012.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-mdpi/abc_cab_background_top_mtrl_alpha.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-mdpi/abc_ic_ab_back_mtrl_am_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-mdpi/abc_ic_clear_mtrl_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-mdpi/abc_ic_commit_search_api_mtrl_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-mdpi/abc_ic_go_search_api_mtrl_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-mdpi/abc_ic_menu_copy_mtrl_am_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-mdpi/abc_ic_menu_cut_mtrl_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-mdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-mdpi/abc_ic_menu_paste_mtrl_am_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-mdpi/abc_ic_menu_selectall_mtrl_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-mdpi/abc_ic_menu_share_mtrl_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-mdpi/abc_ic_search_api_mtrl_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-mdpi/abc_ic_voice_search_api_mtrl_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-mdpi/abc_list_divider_mtrl_alpha.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-mdpi/abc_list_focused_holo.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-mdpi/abc_list_longpressed_holo.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-mdpi/abc_list_pressed_holo_dark.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-mdpi/abc_list_pressed_holo_light.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-mdpi/abc_list_selector_disabled_holo_dark.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-mdpi/abc_list_selector_disabled_holo_light.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-mdpi/abc_menu_hardkey_panel_mtrl_mult.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-mdpi/abc_popup_background_mtrl_mult.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-mdpi/abc_spinner_mtrl_am_alpha.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-mdpi/abc_switch_track_mtrl_alpha.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-mdpi/abc_tab_indicator_mtrl_alpha.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-mdpi/abc_textfield_activated_mtrl_alpha.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-mdpi/abc_textfield_default_mtrl_alpha.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-mdpi/abc_textfield_search_activated_mtrl_alpha.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-mdpi/abc_textfield_search_default_mtrl_alpha.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xhdpi/
+* Libraries/AppCompat/bin/res/crunch/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xhdpi/abc_btn_check_to_on_mtrl_000.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xhdpi/abc_btn_check_to_on_mtrl_015.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xhdpi/abc_btn_radio_to_on_mtrl_000.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xhdpi/abc_btn_radio_to_on_mtrl_015.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xhdpi/abc_btn_switch_to_on_mtrl_00001.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xhdpi/abc_btn_switch_to_on_mtrl_00012.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xhdpi/abc_cab_background_top_mtrl_alpha.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xhdpi/abc_ic_ab_back_mtrl_am_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xhdpi/abc_ic_clear_mtrl_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xhdpi/abc_ic_commit_search_api_mtrl_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xhdpi/abc_ic_go_search_api_mtrl_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xhdpi/abc_ic_menu_copy_mtrl_am_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xhdpi/abc_ic_menu_cut_mtrl_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xhdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xhdpi/abc_ic_menu_paste_mtrl_am_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xhdpi/abc_ic_menu_selectall_mtrl_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xhdpi/abc_ic_menu_share_mtrl_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xhdpi/abc_ic_search_api_mtrl_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xhdpi/abc_ic_voice_search_api_mtrl_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xhdpi/abc_list_divider_mtrl_alpha.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xhdpi/abc_list_focused_holo.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xhdpi/abc_list_longpressed_holo.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xhdpi/abc_list_pressed_holo_dark.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xhdpi/abc_list_pressed_holo_light.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xhdpi/abc_list_selector_disabled_holo_dark.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xhdpi/abc_list_selector_disabled_holo_light.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xhdpi/abc_menu_hardkey_panel_mtrl_mult.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xhdpi/abc_popup_background_mtrl_mult.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xhdpi/abc_spinner_mtrl_am_alpha.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xhdpi/abc_switch_track_mtrl_alpha.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xhdpi/abc_tab_indicator_mtrl_alpha.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xhdpi/abc_textfield_activated_mtrl_alpha.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xhdpi/abc_textfield_default_mtrl_alpha.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xhdpi/abc_textfield_search_activated_mtrl_alpha.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xhdpi/abc_textfield_search_default_mtrl_alpha.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxhdpi/
+* Libraries/AppCompat/bin/res/crunch/drawable-xxhdpi/abc_ab_share_pack_holo_dark.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxhdpi/abc_ab_share_pack_holo_light.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxhdpi/abc_btn_check_to_on_mtrl_000.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxhdpi/abc_btn_check_to_on_mtrl_015.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxhdpi/abc_btn_radio_to_on_mtrl_000.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxhdpi/abc_btn_radio_to_on_mtrl_015.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxhdpi/abc_btn_switch_to_on_mtrl_00001.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxhdpi/abc_btn_switch_to_on_mtrl_00012.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxhdpi/abc_cab_background_top_mtrl_alpha.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxhdpi/abc_ic_ab_back_mtrl_am_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxhdpi/abc_ic_clear_mtrl_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxhdpi/abc_ic_commit_search_api_mtrl_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxhdpi/abc_ic_go_search_api_mtrl_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxhdpi/abc_ic_menu_copy_mtrl_am_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxhdpi/abc_ic_menu_cut_mtrl_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxhdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxhdpi/abc_ic_menu_paste_mtrl_am_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxhdpi/abc_ic_menu_selectall_mtrl_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxhdpi/abc_ic_menu_share_mtrl_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxhdpi/abc_ic_search_api_mtrl_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxhdpi/abc_ic_voice_search_api_mtrl_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxhdpi/abc_list_divider_mtrl_alpha.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxhdpi/abc_list_focused_holo.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxhdpi/abc_list_longpressed_holo.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxhdpi/abc_list_pressed_holo_dark.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxhdpi/abc_list_pressed_holo_light.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxhdpi/abc_list_selector_disabled_holo_dark.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxhdpi/abc_list_selector_disabled_holo_light.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxhdpi/abc_menu_hardkey_panel_mtrl_mult.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxhdpi/abc_popup_background_mtrl_mult.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxhdpi/abc_spinner_mtrl_am_alpha.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxhdpi/abc_switch_track_mtrl_alpha.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxhdpi/abc_tab_indicator_mtrl_alpha.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxhdpi/abc_textfield_activated_mtrl_alpha.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxhdpi/abc_textfield_default_mtrl_alpha.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxhdpi/abc_textfield_search_activated_mtrl_alpha.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxhdpi/abc_textfield_search_default_mtrl_alpha.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxxhdpi/
+* Libraries/AppCompat/bin/res/crunch/drawable-xxxhdpi/abc_btn_check_to_on_mtrl_000.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxxhdpi/abc_btn_check_to_on_mtrl_015.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxxhdpi/abc_btn_radio_to_on_mtrl_000.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxxhdpi/abc_btn_radio_to_on_mtrl_015.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxxhdpi/abc_btn_switch_to_on_mtrl_00001.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxxhdpi/abc_btn_switch_to_on_mtrl_00012.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxxhdpi/abc_ic_ab_back_mtrl_am_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxxhdpi/abc_ic_clear_mtrl_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxxhdpi/abc_ic_menu_copy_mtrl_am_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxxhdpi/abc_ic_menu_cut_mtrl_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxxhdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxxhdpi/abc_ic_menu_paste_mtrl_am_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxxhdpi/abc_ic_menu_selectall_mtrl_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxxhdpi/abc_ic_search_api_mtrl_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxxhdpi/abc_ic_voice_search_api_mtrl_alpha.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxxhdpi/abc_spinner_mtrl_am_alpha.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxxhdpi/abc_switch_track_mtrl_alpha.9.png
+* Libraries/AppCompat/bin/res/crunch/drawable-xxxhdpi/abc_tab_indicator_mtrl_alpha.9.png
+* Libraries/AppCompat/gen/
+* Libraries/AppCompat/gen/android/
+* Libraries/AppCompat/gen/android/support/
+* Libraries/AppCompat/gen/android/support/v7/
+* Libraries/AppCompat/gen/android/support/v7/appcompat/
+* Libraries/AppCompat/gen/android/support/v7/appcompat/BuildConfig.java
+* Libraries/AppCompat/gen/android/support/v7/appcompat/R.java
+* Libraries/AppCompat/libs/
+* Libraries/AppCompat/libs/android-support-v4.jar
+* Libraries/AppCompat/libs/android-support-v7-appcompat.jar
+* Libraries/AppCompat/project.properties
+* Libraries/AppCompat/res/
+* Libraries/AppCompat/res/anim/
+* Libraries/AppCompat/res/anim/abc_fade_in.xml
+* Libraries/AppCompat/res/anim/abc_fade_out.xml
+* Libraries/AppCompat/res/anim/abc_slide_in_bottom.xml
+* Libraries/AppCompat/res/anim/abc_slide_in_top.xml
+* Libraries/AppCompat/res/anim/abc_slide_out_bottom.xml
+* Libraries/AppCompat/res/anim/abc_slide_out_top.xml
+* Libraries/AppCompat/res/color/
+* Libraries/AppCompat/res/color/abc_background_cache_hint_selector_material_dark.xml
+* Libraries/AppCompat/res/color/abc_background_cache_hint_selector_material_light.xml
+* Libraries/AppCompat/res/color/abc_primary_text_disable_only_material_dark.xml
+* Libraries/AppCompat/res/color/abc_primary_text_disable_only_material_light.xml
+* Libraries/AppCompat/res/color/abc_primary_text_material_dark.xml
+* Libraries/AppCompat/res/color/abc_primary_text_material_light.xml
+* Libraries/AppCompat/res/color/abc_search_url_text.xml
+* Libraries/AppCompat/res/color/abc_secondary_text_material_dark.xml
+* Libraries/AppCompat/res/color/abc_secondary_text_material_light.xml
+* Libraries/AppCompat/res/drawable-hdpi/
+* Libraries/AppCompat/res/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png
+* Libraries/AppCompat/res/drawable-hdpi/abc_ab_share_pack_holo_light.9.png
+* Libraries/AppCompat/res/drawable-hdpi/abc_btn_check_to_on_mtrl_000.png
+* Libraries/AppCompat/res/drawable-hdpi/abc_btn_check_to_on_mtrl_015.png
+* Libraries/AppCompat/res/drawable-hdpi/abc_btn_radio_to_on_mtrl_000.png
+* Libraries/AppCompat/res/drawable-hdpi/abc_btn_radio_to_on_mtrl_015.png
+* Libraries/AppCompat/res/drawable-hdpi/abc_btn_switch_to_on_mtrl_00001.9.png
+* Libraries/AppCompat/res/drawable-hdpi/abc_btn_switch_to_on_mtrl_00012.9.png
+* Libraries/AppCompat/res/drawable-hdpi/abc_cab_background_top_mtrl_alpha.9.png
+* Libraries/AppCompat/res/drawable-hdpi/abc_ic_ab_back_mtrl_am_alpha.png
+* Libraries/AppCompat/res/drawable-hdpi/abc_ic_clear_mtrl_alpha.png
+* Libraries/AppCompat/res/drawable-hdpi/abc_ic_commit_search_api_mtrl_alpha.png
+* Libraries/AppCompat/res/drawable-hdpi/abc_ic_go_search_api_mtrl_alpha.png
+* Libraries/AppCompat/res/drawable-hdpi/abc_ic_menu_copy_mtrl_am_alpha.png
+* Libraries/AppCompat/res/drawable-hdpi/abc_ic_menu_cut_mtrl_alpha.png
+* Libraries/AppCompat/res/drawable-hdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png
+* Libraries/AppCompat/res/drawable-hdpi/abc_ic_menu_paste_mtrl_am_alpha.png
+* Libraries/AppCompat/res/drawable-hdpi/abc_ic_menu_selectall_mtrl_alpha.png
+* Libraries/AppCompat/res/drawable-hdpi/abc_ic_menu_share_mtrl_alpha.png
+* Libraries/AppCompat/res/drawable-hdpi/abc_ic_search_api_mtrl_alpha.png
+* Libraries/AppCompat/res/drawable-hdpi/abc_ic_voice_search_api_mtrl_alpha.png
+* Libraries/AppCompat/res/drawable-hdpi/abc_list_divider_mtrl_alpha.9.png
+* Libraries/AppCompat/res/drawable-hdpi/abc_list_focused_holo.9.png
+* Libraries/AppCompat/res/drawable-hdpi/abc_list_longpressed_holo.9.png
+* Libraries/AppCompat/res/drawable-hdpi/abc_list_pressed_holo_dark.9.png
+* Libraries/AppCompat/res/drawable-hdpi/abc_list_pressed_holo_light.9.png
+* Libraries/AppCompat/res/drawable-hdpi/abc_list_selector_disabled_holo_dark.9.png
+* Libraries/AppCompat/res/drawable-hdpi/abc_list_selector_disabled_holo_light.9.png
+* Libraries/AppCompat/res/drawable-hdpi/abc_menu_hardkey_panel_mtrl_mult.9.png
+* Libraries/AppCompat/res/drawable-hdpi/abc_popup_background_mtrl_mult.9.png
+* Libraries/AppCompat/res/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png
+* Libraries/AppCompat/res/drawable-hdpi/abc_switch_track_mtrl_alpha.9.png
+* Libraries/AppCompat/res/drawable-hdpi/abc_tab_indicator_mtrl_alpha.9.png
+* Libraries/AppCompat/res/drawable-hdpi/abc_textfield_activated_mtrl_alpha.9.png
+* Libraries/AppCompat/res/drawable-hdpi/abc_textfield_default_mtrl_alpha.9.png
+* Libraries/AppCompat/res/drawable-hdpi/abc_textfield_search_activated_mtrl_alpha.9.png
+* Libraries/AppCompat/res/drawable-hdpi/abc_textfield_search_default_mtrl_alpha.9.png
+* Libraries/AppCompat/res/drawable-ldrtl-hdpi/
+* Libraries/AppCompat/res/drawable-ldrtl-hdpi/abc_ic_ab_back_mtrl_am_alpha.png
+* Libraries/AppCompat/res/drawable-ldrtl-hdpi/abc_ic_menu_copy_mtrl_am_alpha.png
+* Libraries/AppCompat/res/drawable-ldrtl-hdpi/abc_ic_menu_cut_mtrl_alpha.png
+* Libraries/AppCompat/res/drawable-ldrtl-hdpi/abc_spinner_mtrl_am_alpha.9.png
+* Libraries/AppCompat/res/drawable-ldrtl-mdpi/
+* Libraries/AppCompat/res/drawable-ldrtl-mdpi/abc_ic_ab_back_mtrl_am_alpha.png
+* Libraries/AppCompat/res/drawable-ldrtl-mdpi/abc_ic_menu_copy_mtrl_am_alpha.png
+* Libraries/AppCompat/res/drawable-ldrtl-mdpi/abc_ic_menu_cut_mtrl_alpha.png
+* Libraries/AppCompat/res/drawable-ldrtl-mdpi/abc_spinner_mtrl_am_alpha.9.png
+* Libraries/AppCompat/res/drawable-ldrtl-xhdpi/
+* Libraries/AppCompat/res/drawable-ldrtl-xhdpi/abc_ic_ab_back_mtrl_am_alpha.png
+* Libraries/AppCompat/res/drawable-ldrtl-xhdpi/abc_ic_menu_copy_mtrl_am_alpha.png
+* Libraries/AppCompat/res/drawable-ldrtl-xhdpi/abc_ic_menu_cut_mtrl_alpha.png
+* Libraries/AppCompat/res/drawable-ldrtl-xhdpi/abc_spinner_mtrl_am_alpha.9.png
+* Libraries/AppCompat/res/drawable-ldrtl-xxhdpi/
+* Libraries/AppCompat/res/drawable-ldrtl-xxhdpi/abc_ic_ab_back_mtrl_am_alpha.png
+* Libraries/AppCompat/res/drawable-ldrtl-xxhdpi/abc_ic_menu_copy_mtrl_am_alpha.png
+* Libraries/AppCompat/res/drawable-ldrtl-xxhdpi/abc_ic_menu_cut_mtrl_alpha.png
+* Libraries/AppCompat/res/drawable-ldrtl-xxhdpi/abc_spinner_mtrl_am_alpha.9.png
+* Libraries/AppCompat/res/drawable-ldrtl-xxxhdpi/
+* Libraries/AppCompat/res/drawable-ldrtl-xxxhdpi/abc_ic_ab_back_mtrl_am_alpha.png
+* Libraries/AppCompat/res/drawable-ldrtl-xxxhdpi/abc_ic_menu_copy_mtrl_am_alpha.png
+* Libraries/AppCompat/res/drawable-ldrtl-xxxhdpi/abc_ic_menu_cut_mtrl_alpha.png
+* Libraries/AppCompat/res/drawable-ldrtl-xxxhdpi/abc_spinner_mtrl_am_alpha.9.png
+* Libraries/AppCompat/res/drawable-mdpi/
+* Libraries/AppCompat/res/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png
+* Libraries/AppCompat/res/drawable-mdpi/abc_ab_share_pack_holo_light.9.png
+* Libraries/AppCompat/res/drawable-mdpi/abc_btn_check_to_on_mtrl_000.png
+* Libraries/AppCompat/res/drawable-mdpi/abc_btn_check_to_on_mtrl_015.png
+* Libraries/AppCompat/res/drawable-mdpi/abc_btn_radio_to_on_mtrl_000.png
+* Libraries/AppCompat/res/drawable-mdpi/abc_btn_radio_to_on_mtrl_015.png
+* Libraries/AppCompat/res/drawable-mdpi/abc_btn_switch_to_on_mtrl_00001.9.png
+* Libraries/AppCompat/res/drawable-mdpi/abc_btn_switch_to_on_mtrl_00012.9.png
+* Libraries/AppCompat/res/drawable-mdpi/abc_cab_background_top_mtrl_alpha.9.png
+* Libraries/AppCompat/res/drawable-mdpi/abc_ic_ab_back_mtrl_am_alpha.png
+* Libraries/AppCompat/res/drawable-mdpi/abc_ic_clear_mtrl_alpha.png
+* Libraries/AppCompat/res/drawable-mdpi/abc_ic_commit_search_api_mtrl_alpha.png
+* Libraries/AppCompat/res/drawable-mdpi/abc_ic_go_search_api_mtrl_alpha.png
+* Libraries/AppCompat/res/drawable-mdpi/abc_ic_menu_copy_mtrl_am_alpha.png
+* Libraries/AppCompat/res/drawable-mdpi/abc_ic_menu_cut_mtrl_alpha.png
+* Libraries/AppCompat/res/drawable-mdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png
+* Libraries/AppCompat/res/drawable-mdpi/abc_ic_menu_paste_mtrl_am_alpha.png
+* Libraries/AppCompat/res/drawable-mdpi/abc_ic_menu_selectall_mtrl_alpha.png
+* Libraries/AppCompat/res/drawable-mdpi/abc_ic_menu_share_mtrl_alpha.png
+* Libraries/AppCompat/res/drawable-mdpi/abc_ic_search_api_mtrl_alpha.png
+* Libraries/AppCompat/res/drawable-mdpi/abc_ic_voice_search_api_mtrl_alpha.png
+* Libraries/AppCompat/res/drawable-mdpi/abc_list_divider_mtrl_alpha.9.png
+* Libraries/AppCompat/res/drawable-mdpi/abc_list_focused_holo.9.png
+* Libraries/AppCompat/res/drawable-mdpi/abc_list_longpressed_holo.9.png
+* Libraries/AppCompat/res/drawable-mdpi/abc_list_pressed_holo_dark.9.png
+* Libraries/AppCompat/res/drawable-mdpi/abc_list_pressed_holo_light.9.png
+* Libraries/AppCompat/res/drawable-mdpi/abc_list_selector_disabled_holo_dark.9.png
+* Libraries/AppCompat/res/drawable-mdpi/abc_list_selector_disabled_holo_light.9.png
+* Libraries/AppCompat/res/drawable-mdpi/abc_menu_hardkey_panel_mtrl_mult.9.png
+* Libraries/AppCompat/res/drawable-mdpi/abc_popup_background_mtrl_mult.9.png
+* Libraries/AppCompat/res/drawable-mdpi/abc_spinner_mtrl_am_alpha.9.png
+* Libraries/AppCompat/res/drawable-mdpi/abc_switch_track_mtrl_alpha.9.png
+* Libraries/AppCompat/res/drawable-mdpi/abc_tab_indicator_mtrl_alpha.9.png
+* Libraries/AppCompat/res/drawable-mdpi/abc_textfield_activated_mtrl_alpha.9.png
+* Libraries/AppCompat/res/drawable-mdpi/abc_textfield_default_mtrl_alpha.9.png
+* Libraries/AppCompat/res/drawable-mdpi/abc_textfield_search_activated_mtrl_alpha.9.png
+* Libraries/AppCompat/res/drawable-mdpi/abc_textfield_search_default_mtrl_alpha.9.png
+* Libraries/AppCompat/res/drawable-xhdpi/
+* Libraries/AppCompat/res/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png
+* Libraries/AppCompat/res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png
+* Libraries/AppCompat/res/drawable-xhdpi/abc_btn_check_to_on_mtrl_000.png
+* Libraries/AppCompat/res/drawable-xhdpi/abc_btn_check_to_on_mtrl_015.png
+* Libraries/AppCompat/res/drawable-xhdpi/abc_btn_radio_to_on_mtrl_000.png
+* Libraries/AppCompat/res/drawable-xhdpi/abc_btn_radio_to_on_mtrl_015.png
+* Libraries/AppCompat/res/drawable-xhdpi/abc_btn_switch_to_on_mtrl_00001.9.png
+* Libraries/AppCompat/res/drawable-xhdpi/abc_btn_switch_to_on_mtrl_00012.9.png
+* Libraries/AppCompat/res/drawable-xhdpi/abc_cab_background_top_mtrl_alpha.9.png
+* Libraries/AppCompat/res/drawable-xhdpi/abc_ic_ab_back_mtrl_am_alpha.png
+* Libraries/AppCompat/res/drawable-xhdpi/abc_ic_clear_mtrl_alpha.png
+* Libraries/AppCompat/res/drawable-xhdpi/abc_ic_commit_search_api_mtrl_alpha.png
+* Libraries/AppCompat/res/drawable-xhdpi/abc_ic_go_search_api_mtrl_alpha.png
+* Libraries/AppCompat/res/drawable-xhdpi/abc_ic_menu_copy_mtrl_am_alpha.png
+* Libraries/AppCompat/res/drawable-xhdpi/abc_ic_menu_cut_mtrl_alpha.png
+* Libraries/AppCompat/res/drawable-xhdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png
+* Libraries/AppCompat/res/drawable-xhdpi/abc_ic_menu_paste_mtrl_am_alpha.png
+* Libraries/AppCompat/res/drawable-xhdpi/abc_ic_menu_selectall_mtrl_alpha.png
+* Libraries/AppCompat/res/drawable-xhdpi/abc_ic_menu_share_mtrl_alpha.png
+* Libraries/AppCompat/res/drawable-xhdpi/abc_ic_search_api_mtrl_alpha.png
+* Libraries/AppCompat/res/drawable-xhdpi/abc_ic_voice_search_api_mtrl_alpha.png
+* Libraries/AppCompat/res/drawable-xhdpi/abc_list_divider_mtrl_alpha.9.png
+* Libraries/AppCompat/res/drawable-xhdpi/abc_list_focused_holo.9.png
+* Libraries/AppCompat/res/drawable-xhdpi/abc_list_longpressed_holo.9.png
+* Libraries/AppCompat/res/drawable-xhdpi/abc_list_pressed_holo_dark.9.png
+* Libraries/AppCompat/res/drawable-xhdpi/abc_list_pressed_holo_light.9.png
+* Libraries/AppCompat/res/drawable-xhdpi/abc_list_selector_disabled_holo_dark.9.png
+* Libraries/AppCompat/res/drawable-xhdpi/abc_list_selector_disabled_holo_light.9.png
+* Libraries/AppCompat/res/drawable-xhdpi/abc_menu_hardkey_panel_mtrl_mult.9.png
+* Libraries/AppCompat/res/drawable-xhdpi/abc_popup_background_mtrl_mult.9.png
+* Libraries/AppCompat/res/drawable-xhdpi/abc_spinner_mtrl_am_alpha.9.png
+* Libraries/AppCompat/res/drawable-xhdpi/abc_switch_track_mtrl_alpha.9.png
+* Libraries/AppCompat/res/drawable-xhdpi/abc_tab_indicator_mtrl_alpha.9.png
+* Libraries/AppCompat/res/drawable-xhdpi/abc_textfield_activated_mtrl_alpha.9.png
+* Libraries/AppCompat/res/drawable-xhdpi/abc_textfield_default_mtrl_alpha.9.png
+* Libraries/AppCompat/res/drawable-xhdpi/abc_textfield_search_activated_mtrl_alpha.9.png
+* Libraries/AppCompat/res/drawable-xhdpi/abc_textfield_search_default_mtrl_alpha.9.png
+* Libraries/AppCompat/res/drawable-xxhdpi/
+* Libraries/AppCompat/res/drawable-xxhdpi/abc_ab_share_pack_holo_dark.9.png
+* Libraries/AppCompat/res/drawable-xxhdpi/abc_ab_share_pack_holo_light.9.png
+* Libraries/AppCompat/res/drawable-xxhdpi/abc_btn_check_to_on_mtrl_000.png
+* Libraries/AppCompat/res/drawable-xxhdpi/abc_btn_check_to_on_mtrl_015.png
+* Libraries/AppCompat/res/drawable-xxhdpi/abc_btn_radio_to_on_mtrl_000.png
+* Libraries/AppCompat/res/drawable-xxhdpi/abc_btn_radio_to_on_mtrl_015.png
+* Libraries/AppCompat/res/drawable-xxhdpi/abc_btn_switch_to_on_mtrl_00001.9.png
+* Libraries/AppCompat/res/drawable-xxhdpi/abc_btn_switch_to_on_mtrl_00012.9.png
+* Libraries/AppCompat/res/drawable-xxhdpi/abc_cab_background_top_mtrl_alpha.9.png
+* Libraries/AppCompat/res/drawable-xxhdpi/abc_ic_ab_back_mtrl_am_alpha.png
+* Libraries/AppCompat/res/drawable-xxhdpi/abc_ic_clear_mtrl_alpha.png
+* Libraries/AppCompat/res/drawable-xxhdpi/abc_ic_commit_search_api_mtrl_alpha.png
+* Libraries/AppCompat/res/drawable-xxhdpi/abc_ic_go_search_api_mtrl_alpha.png
+* Libraries/AppCompat/res/drawable-xxhdpi/abc_ic_menu_copy_mtrl_am_alpha.png
+* Libraries/AppCompat/res/drawable-xxhdpi/abc_ic_menu_cut_mtrl_alpha.png
+* Libraries/AppCompat/res/drawable-xxhdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png
+* Libraries/AppCompat/res/drawable-xxhdpi/abc_ic_menu_paste_mtrl_am_alpha.png
+* Libraries/AppCompat/res/drawable-xxhdpi/abc_ic_menu_selectall_mtrl_alpha.png
+* Libraries/AppCompat/res/drawable-xxhdpi/abc_ic_menu_share_mtrl_alpha.png
+* Libraries/AppCompat/res/drawable-xxhdpi/abc_ic_search_api_mtrl_alpha.png
+* Libraries/AppCompat/res/drawable-xxhdpi/abc_ic_voice_search_api_mtrl_alpha.png
+* Libraries/AppCompat/res/drawable-xxhdpi/abc_list_divider_mtrl_alpha.9.png
+* Libraries/AppCompat/res/drawable-xxhdpi/abc_list_focused_holo.9.png
+* Libraries/AppCompat/res/drawable-xxhdpi/abc_list_longpressed_holo.9.png
+* Libraries/AppCompat/res/drawable-xxhdpi/abc_list_pressed_holo_dark.9.png
+* Libraries/AppCompat/res/drawable-xxhdpi/abc_list_pressed_holo_light.9.png
+* Libraries/AppCompat/res/drawable-xxhdpi/abc_list_selector_disabled_holo_dark.9.png
+* Libraries/AppCompat/res/drawable-xxhdpi/abc_list_selector_disabled_holo_light.9.png
+* Libraries/AppCompat/res/drawable-xxhdpi/abc_menu_hardkey_panel_mtrl_mult.9.png
+* Libraries/AppCompat/res/drawable-xxhdpi/abc_popup_background_mtrl_mult.9.png
+* Libraries/AppCompat/res/drawable-xxhdpi/abc_spinner_mtrl_am_alpha.9.png
+* Libraries/AppCompat/res/drawable-xxhdpi/abc_switch_track_mtrl_alpha.9.png
+* Libraries/AppCompat/res/drawable-xxhdpi/abc_tab_indicator_mtrl_alpha.9.png
+* Libraries/AppCompat/res/drawable-xxhdpi/abc_textfield_activated_mtrl_alpha.9.png
+* Libraries/AppCompat/res/drawable-xxhdpi/abc_textfield_default_mtrl_alpha.9.png
+* Libraries/AppCompat/res/drawable-xxhdpi/abc_textfield_search_activated_mtrl_alpha.9.png
+* Libraries/AppCompat/res/drawable-xxhdpi/abc_textfield_search_default_mtrl_alpha.9.png
+* Libraries/AppCompat/res/drawable-xxxhdpi/
+* Libraries/AppCompat/res/drawable-xxxhdpi/abc_btn_check_to_on_mtrl_000.png
+* Libraries/AppCompat/res/drawable-xxxhdpi/abc_btn_check_to_on_mtrl_015.png
+* Libraries/AppCompat/res/drawable-xxxhdpi/abc_btn_radio_to_on_mtrl_000.png
+* Libraries/AppCompat/res/drawable-xxxhdpi/abc_btn_radio_to_on_mtrl_015.png
+* Libraries/AppCompat/res/drawable-xxxhdpi/abc_btn_switch_to_on_mtrl_00001.9.png
+* Libraries/AppCompat/res/drawable-xxxhdpi/abc_btn_switch_to_on_mtrl_00012.9.png
+* Libraries/AppCompat/res/drawable-xxxhdpi/abc_ic_ab_back_mtrl_am_alpha.png
+* Libraries/AppCompat/res/drawable-xxxhdpi/abc_ic_clear_mtrl_alpha.png
+* Libraries/AppCompat/res/drawable-xxxhdpi/abc_ic_menu_copy_mtrl_am_alpha.png
+* Libraries/AppCompat/res/drawable-xxxhdpi/abc_ic_menu_cut_mtrl_alpha.png
+* Libraries/AppCompat/res/drawable-xxxhdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png
+* Libraries/AppCompat/res/drawable-xxxhdpi/abc_ic_menu_paste_mtrl_am_alpha.png
+* Libraries/AppCompat/res/drawable-xxxhdpi/abc_ic_menu_selectall_mtrl_alpha.png
+* Libraries/AppCompat/res/drawable-xxxhdpi/abc_ic_search_api_mtrl_alpha.png
+* Libraries/AppCompat/res/drawable-xxxhdpi/abc_ic_voice_search_api_mtrl_alpha.png
+* Libraries/AppCompat/res/drawable-xxxhdpi/abc_spinner_mtrl_am_alpha.9.png
+* Libraries/AppCompat/res/drawable-xxxhdpi/abc_switch_track_mtrl_alpha.9.png
+* Libraries/AppCompat/res/drawable-xxxhdpi/abc_tab_indicator_mtrl_alpha.9.png
+* Libraries/AppCompat/res/drawable/
+* Libraries/AppCompat/res/drawable/abc_btn_check_material.xml
+* Libraries/AppCompat/res/drawable/abc_btn_radio_material.xml
+* Libraries/AppCompat/res/drawable/abc_cab_background_internal_bg.xml
+* Libraries/AppCompat/res/drawable/abc_cab_background_top_material.xml
+* Libraries/AppCompat/res/drawable/abc_edit_text_material.xml
+* Libraries/AppCompat/res/drawable/abc_item_background_holo_dark.xml
+* Libraries/AppCompat/res/drawable/abc_item_background_holo_light.xml
+* Libraries/AppCompat/res/drawable/abc_list_selector_background_transition_holo_dark.xml
+* Libraries/AppCompat/res/drawable/abc_list_selector_background_transition_holo_light.xml
+* Libraries/AppCompat/res/drawable/abc_list_selector_holo_dark.xml
+* Libraries/AppCompat/res/drawable/abc_list_selector_holo_light.xml
+* Libraries/AppCompat/res/drawable/abc_switch_thumb_material.xml
+* Libraries/AppCompat/res/drawable/abc_tab_indicator_material.xml
+* Libraries/AppCompat/res/drawable/abc_textfield_search_material.xml
+* Libraries/AppCompat/res/layout-v11/
+* Libraries/AppCompat/res/layout-v11/abc_screen_content_include.xml
+* Libraries/AppCompat/res/layout/
+* Libraries/AppCompat/res/layout/abc_action_bar_title_item.xml
+* Libraries/AppCompat/res/layout/abc_action_bar_up_container.xml
+* Libraries/AppCompat/res/layout/abc_action_bar_view_list_nav_layout.xml
+* Libraries/AppCompat/res/layout/abc_action_menu_item_layout.xml
+* Libraries/AppCompat/res/layout/abc_action_menu_layout.xml
+* Libraries/AppCompat/res/layout/abc_action_mode_bar.xml
+* Libraries/AppCompat/res/layout/abc_action_mode_close_item_material.xml
+* Libraries/AppCompat/res/layout/abc_activity_chooser_view.xml
+* Libraries/AppCompat/res/layout/abc_activity_chooser_view_include.xml
+* Libraries/AppCompat/res/layout/abc_activity_chooser_view_list_item.xml
+* Libraries/AppCompat/res/layout/abc_expanded_menu_layout.xml
+* Libraries/AppCompat/res/layout/abc_list_menu_item_checkbox.xml
+* Libraries/AppCompat/res/layout/abc_list_menu_item_icon.xml
+* Libraries/AppCompat/res/layout/abc_list_menu_item_layout.xml
+* Libraries/AppCompat/res/layout/abc_list_menu_item_radio.xml
+* Libraries/AppCompat/res/layout/abc_popup_menu_item_layout.xml
+* Libraries/AppCompat/res/layout/abc_screen_content_include.xml
+* Libraries/AppCompat/res/layout/abc_screen_simple.xml
+* Libraries/AppCompat/res/layout/abc_screen_simple_overlay_action_mode.xml
+* Libraries/AppCompat/res/layout/abc_screen_toolbar.xml
+* Libraries/AppCompat/res/layout/abc_search_dropdown_item_icons_2line.xml
+* Libraries/AppCompat/res/layout/abc_search_view.xml
+* Libraries/AppCompat/res/layout/abc_simple_dropdown_hint.xml
+* Libraries/AppCompat/res/layout/support_simple_spinner_dropdown_item.xml
+* Libraries/AppCompat/res/values-af/
+* Libraries/AppCompat/res/values-af/strings.xml
+* Libraries/AppCompat/res/values-am/
+* Libraries/AppCompat/res/values-am/strings.xml
+* Libraries/AppCompat/res/values-ar/
+* Libraries/AppCompat/res/values-ar/strings.xml
+* Libraries/AppCompat/res/values-bg/
+* Libraries/AppCompat/res/values-bg/strings.xml
+* Libraries/AppCompat/res/values-bn-rBD/
+* Libraries/AppCompat/res/values-bn-rBD/strings.xml
+* Libraries/AppCompat/res/values-ca/
+* Libraries/AppCompat/res/values-ca/strings.xml
+* Libraries/AppCompat/res/values-cs/
+* Libraries/AppCompat/res/values-cs/strings.xml
+* Libraries/AppCompat/res/values-da/
+* Libraries/AppCompat/res/values-da/strings.xml
+* Libraries/AppCompat/res/values-de/
+* Libraries/AppCompat/res/values-de/strings.xml
+* Libraries/AppCompat/res/values-el/
+* Libraries/AppCompat/res/values-el/strings.xml
+* Libraries/AppCompat/res/values-en-rGB/
+* Libraries/AppCompat/res/values-en-rGB/strings.xml
+* Libraries/AppCompat/res/values-en-rIN/
+* Libraries/AppCompat/res/values-en-rIN/strings.xml
+* Libraries/AppCompat/res/values-es-rUS/
+* Libraries/AppCompat/res/values-es-rUS/strings.xml
+* Libraries/AppCompat/res/values-es/
+* Libraries/AppCompat/res/values-es/strings.xml
+* Libraries/AppCompat/res/values-et-rEE/
+* Libraries/AppCompat/res/values-et-rEE/strings.xml
+* Libraries/AppCompat/res/values-eu-rES/
+* Libraries/AppCompat/res/values-eu-rES/strings.xml
+* Libraries/AppCompat/res/values-fa/
+* Libraries/AppCompat/res/values-fa/strings.xml
+* Libraries/AppCompat/res/values-fi/
+* Libraries/AppCompat/res/values-fi/strings.xml
+* Libraries/AppCompat/res/values-fr-rCA/
+* Libraries/AppCompat/res/values-fr-rCA/strings.xml
+* Libraries/AppCompat/res/values-fr/
+* Libraries/AppCompat/res/values-fr/strings.xml
+* Libraries/AppCompat/res/values-gl-rES/
+* Libraries/AppCompat/res/values-gl-rES/strings.xml
+* Libraries/AppCompat/res/values-hi/
+* Libraries/AppCompat/res/values-hi/strings.xml
+* Libraries/AppCompat/res/values-hr/
+* Libraries/AppCompat/res/values-hr/strings.xml
+* Libraries/AppCompat/res/values-hu/
+* Libraries/AppCompat/res/values-hu/strings.xml
+* Libraries/AppCompat/res/values-hy-rAM/
+* Libraries/AppCompat/res/values-hy-rAM/strings.xml
+* Libraries/AppCompat/res/values-in/
+* Libraries/AppCompat/res/values-in/strings.xml
+* Libraries/AppCompat/res/values-is-rIS/
+* Libraries/AppCompat/res/values-is-rIS/strings.xml
+* Libraries/AppCompat/res/values-it/
+* Libraries/AppCompat/res/values-it/strings.xml
+* Libraries/AppCompat/res/values-iw/
+* Libraries/AppCompat/res/values-iw/strings.xml
+* Libraries/AppCompat/res/values-ja/
+* Libraries/AppCompat/res/values-ja/strings.xml
+* Libraries/AppCompat/res/values-ka-rGE/
+* Libraries/AppCompat/res/values-ka-rGE/strings.xml
+* Libraries/AppCompat/res/values-kk-rKZ/
+* Libraries/AppCompat/res/values-kk-rKZ/strings.xml
+* Libraries/AppCompat/res/values-km-rKH/
+* Libraries/AppCompat/res/values-km-rKH/strings.xml
+* Libraries/AppCompat/res/values-kn-rIN/
+* Libraries/AppCompat/res/values-kn-rIN/strings.xml
+* Libraries/AppCompat/res/values-ko/
+* Libraries/AppCompat/res/values-ko/strings.xml
+* Libraries/AppCompat/res/values-ky-rKG/
+* Libraries/AppCompat/res/values-ky-rKG/strings.xml
+* Libraries/AppCompat/res/values-land/
+* Libraries/AppCompat/res/values-land/bools.xml
+* Libraries/AppCompat/res/values-land/config.xml
+* Libraries/AppCompat/res/values-land/dimens.xml
+* Libraries/AppCompat/res/values-land/dimens_material.xml
+* Libraries/AppCompat/res/values-large/
+* Libraries/AppCompat/res/values-large/bools.xml
+* Libraries/AppCompat/res/values-large/config.xml
+* Libraries/AppCompat/res/values-large/dimens.xml
+* Libraries/AppCompat/res/values-large/themes_base.xml
+* Libraries/AppCompat/res/values-lo-rLA/
+* Libraries/AppCompat/res/values-lo-rLA/strings.xml
+* Libraries/AppCompat/res/values-lt/
+* Libraries/AppCompat/res/values-lt/strings.xml
+* Libraries/AppCompat/res/values-lv/
+* Libraries/AppCompat/res/values-lv/strings.xml
+* Libraries/AppCompat/res/values-mk-rMK/
+* Libraries/AppCompat/res/values-mk-rMK/strings.xml
+* Libraries/AppCompat/res/values-ml-rIN/
+* Libraries/AppCompat/res/values-ml-rIN/strings.xml
+* Libraries/AppCompat/res/values-mn-rMN/
+* Libraries/AppCompat/res/values-mn-rMN/strings.xml
+* Libraries/AppCompat/res/values-mr-rIN/
+* Libraries/AppCompat/res/values-mr-rIN/strings.xml
+* Libraries/AppCompat/res/values-ms-rMY/
+* Libraries/AppCompat/res/values-ms-rMY/strings.xml
+* Libraries/AppCompat/res/values-my-rMM/
+* Libraries/AppCompat/res/values-my-rMM/strings.xml
+* Libraries/AppCompat/res/values-nb/
+* Libraries/AppCompat/res/values-nb/strings.xml
+* Libraries/AppCompat/res/values-ne-rNP/
+* Libraries/AppCompat/res/values-ne-rNP/strings.xml
+* Libraries/AppCompat/res/values-nl/
+* Libraries/AppCompat/res/values-nl/strings.xml
+* Libraries/AppCompat/res/values-pl/
+* Libraries/AppCompat/res/values-pl/strings.xml
+* Libraries/AppCompat/res/values-port/
+* Libraries/AppCompat/res/values-port/bools.xml
+* Libraries/AppCompat/res/values-pt-rPT/
+* Libraries/AppCompat/res/values-pt-rPT/strings.xml
+* Libraries/AppCompat/res/values-pt/
+* Libraries/AppCompat/res/values-pt/strings.xml
+* Libraries/AppCompat/res/values-ro/
+* Libraries/AppCompat/res/values-ro/strings.xml
+* Libraries/AppCompat/res/values-ru/
+* Libraries/AppCompat/res/values-ru/strings.xml
+* Libraries/AppCompat/res/values-si-rLK/
+* Libraries/AppCompat/res/values-si-rLK/strings.xml
+* Libraries/AppCompat/res/values-sk/
+* Libraries/AppCompat/res/values-sk/strings.xml
+* Libraries/AppCompat/res/values-sl/
+* Libraries/AppCompat/res/values-sl/strings.xml
+* Libraries/AppCompat/res/values-sr/
+* Libraries/AppCompat/res/values-sr/strings.xml
+* Libraries/AppCompat/res/values-sv/
+* Libraries/AppCompat/res/values-sv/strings.xml
+* Libraries/AppCompat/res/values-sw/
+* Libraries/AppCompat/res/values-sw/strings.xml
+* Libraries/AppCompat/res/values-sw600dp/
+* Libraries/AppCompat/res/values-sw600dp/config.xml
+* Libraries/AppCompat/res/values-sw600dp/dimens.xml
+* Libraries/AppCompat/res/values-ta-rIN/
+* Libraries/AppCompat/res/values-ta-rIN/strings.xml
+* Libraries/AppCompat/res/values-te-rIN/
+* Libraries/AppCompat/res/values-te-rIN/strings.xml
+* Libraries/AppCompat/res/values-th/
+* Libraries/AppCompat/res/values-th/strings.xml
+* Libraries/AppCompat/res/values-tl/
+* Libraries/AppCompat/res/values-tl/strings.xml
+* Libraries/AppCompat/res/values-tr/
+* Libraries/AppCompat/res/values-tr/strings.xml
+* Libraries/AppCompat/res/values-uk/
+* Libraries/AppCompat/res/values-uk/strings.xml
+* Libraries/AppCompat/res/values-ur-rPK/
+* Libraries/AppCompat/res/values-ur-rPK/strings.xml
+* Libraries/AppCompat/res/values-uz-rUZ/
+* Libraries/AppCompat/res/values-uz-rUZ/strings.xml
+* Libraries/AppCompat/res/values-v11/
+* Libraries/AppCompat/res/values-v11/styles_base.xml
+* Libraries/AppCompat/res/values-v11/styles_base_text.xml
+* Libraries/AppCompat/res/values-v11/themes_base.xml
+* Libraries/AppCompat/res/values-v14/
+* Libraries/AppCompat/res/values-v14/themes_base.xml
+* Libraries/AppCompat/res/values-v17/
+* Libraries/AppCompat/res/values-v17/styles_rtl.xml
+* Libraries/AppCompat/res/values-v21/
+* Libraries/AppCompat/res/values-v21/styles_base.xml
+* Libraries/AppCompat/res/values-v21/styles_base_text.xml
+* Libraries/AppCompat/res/values-v21/themes_base.xml
+* Libraries/AppCompat/res/values-vi/
+* Libraries/AppCompat/res/values-vi/strings.xml
+* Libraries/AppCompat/res/values-w360dp/
+* Libraries/AppCompat/res/values-w360dp/dimens.xml
+* Libraries/AppCompat/res/values-w480dp/
+* Libraries/AppCompat/res/values-w480dp/bools.xml
+* Libraries/AppCompat/res/values-w480dp/config.xml
+* Libraries/AppCompat/res/values-w500dp/
+* Libraries/AppCompat/res/values-w500dp/dimens.xml
+* Libraries/AppCompat/res/values-w600dp/
+* Libraries/AppCompat/res/values-w600dp/dimens.xml
+* Libraries/AppCompat/res/values-w720dp/
+* Libraries/AppCompat/res/values-w720dp/bools.xml
+* Libraries/AppCompat/res/values-xlarge-land/
+* Libraries/AppCompat/res/values-xlarge-land/dimens.xml
+* Libraries/AppCompat/res/values-xlarge/
+* Libraries/AppCompat/res/values-xlarge/bools.xml
+* Libraries/AppCompat/res/values-xlarge/dimens.xml
+* Libraries/AppCompat/res/values-zh-rCN/
+* Libraries/AppCompat/res/values-zh-rCN/strings.xml
+* Libraries/AppCompat/res/values-zh-rHK/
+* Libraries/AppCompat/res/values-zh-rHK/strings.xml
+* Libraries/AppCompat/res/values-zh-rTW/
+* Libraries/AppCompat/res/values-zh-rTW/strings.xml
+* Libraries/AppCompat/res/values-zu/
+* Libraries/AppCompat/res/values-zu/strings.xml
+* Libraries/AppCompat/res/values/
+* Libraries/AppCompat/res/values/attrs.xml
+* Libraries/AppCompat/res/values/bools.xml
+* Libraries/AppCompat/res/values/colors.xml
+* Libraries/AppCompat/res/values/colors_material.xml
+* Libraries/AppCompat/res/values/config.xml
+* Libraries/AppCompat/res/values/dimens.xml
+* Libraries/AppCompat/res/values/dimens_material.xml
+* Libraries/AppCompat/res/values/ids.xml
+* Libraries/AppCompat/res/values/strings.xml
+* Libraries/AppCompat/res/values/styles.xml
+* Libraries/AppCompat/res/values/styles_base.xml
+* Libraries/AppCompat/res/values/styles_base_text.xml
+* Libraries/AppCompat/res/values/styles_rtl.xml
+* Libraries/AppCompat/res/values/themes.xml
+* Libraries/AppCompat/res/values/themes_base.xml
+* Libraries/AppCompat/src/
+* Libraries/AppCompat/src/.readme
+* Libraries/CardView_lib_Rss/
+* Libraries/CardView_lib_Rss/.classpath
+* Libraries/CardView_lib_Rss/.project
+* Libraries/CardView_lib_Rss/.settings/
+* Libraries/CardView_lib_Rss/.settings/org.eclipse.jdt.core.prefs
+* Libraries/CardView_lib_Rss/AndroidManifest.xml
+* Libraries/CardView_lib_Rss/bin/
+* Libraries/CardView_lib_Rss/bin/AndroidManifest.xml
+* Libraries/CardView_lib_Rss/bin/R.txt
+* Libraries/CardView_lib_Rss/bin/cardview.jar
+* Libraries/CardView_lib_Rss/bin/cardview_lib_rss.jar
+* Libraries/CardView_lib_Rss/bin/classes/
+* Libraries/CardView_lib_Rss/bin/classes/.readme
+* Libraries/CardView_lib_Rss/bin/classes/android/
+* Libraries/CardView_lib_Rss/bin/classes/android/support/
+* Libraries/CardView_lib_Rss/bin/classes/android/support/v7/
+* Libraries/CardView_lib_Rss/bin/classes/android/support/v7/cardview/
+* Libraries/CardView_lib_Rss/bin/classes/android/support/v7/cardview/BuildConfig.class
+* Libraries/CardView_lib_Rss/bin/classes/android/support/v7/cardview/R$attr.class
+* Libraries/CardView_lib_Rss/bin/classes/android/support/v7/cardview/R$color.class
+* Libraries/CardView_lib_Rss/bin/classes/android/support/v7/cardview/R$dimen.class
+* Libraries/CardView_lib_Rss/bin/classes/android/support/v7/cardview/R$style.class
+* Libraries/CardView_lib_Rss/bin/classes/android/support/v7/cardview/R$styleable.class
+* Libraries/CardView_lib_Rss/bin/classes/android/support/v7/cardview/R.class
+* Libraries/CardView_lib_Rss/bin/jarlist.cache
+* Libraries/CardView_lib_Rss/gen/
+* Libraries/CardView_lib_Rss/gen/android/
+* Libraries/CardView_lib_Rss/gen/android/support/
+* Libraries/CardView_lib_Rss/gen/android/support/v7/
+* Libraries/CardView_lib_Rss/gen/android/support/v7/cardview/
+* Libraries/CardView_lib_Rss/gen/android/support/v7/cardview/BuildConfig.java
+* Libraries/CardView_lib_Rss/gen/android/support/v7/cardview/R.java
+* Libraries/CardView_lib_Rss/libs/
+* Libraries/CardView_lib_Rss/libs/android-support-v7-cardview.jar
+* Libraries/CardView_lib_Rss/project.properties
+* Libraries/CardView_lib_Rss/res/
+* Libraries/CardView_lib_Rss/res/values/
+* Libraries/CardView_lib_Rss/res/values/attrs.xml
+* Libraries/CardView_lib_Rss/res/values/colors.xml
+* Libraries/CardView_lib_Rss/res/values/dimens.xml
+* Libraries/CardView_lib_Rss/res/values/styles.xml
+* Libraries/CardView_lib_Rss/src/
+* Libraries/CardView_lib_Rss/src/.readme
+* Libraries/recyclerview/
+* Libraries/recyclerview/.classpath
+* Libraries/recyclerview/.project
+* Libraries/recyclerview/.settings/
+* Libraries/recyclerview/.settings/org.eclipse.jdt.core.prefs
+* Libraries/recyclerview/AndroidManifest.xml
+* Libraries/recyclerview/README.txt
+* Libraries/recyclerview/bin/
+* Libraries/recyclerview/bin/AndroidManifest.xml
+* Libraries/recyclerview/bin/classes/
+* Libraries/recyclerview/bin/classes/android/
+* Libraries/recyclerview/bin/classes/android/support/
+* Libraries/recyclerview/bin/classes/android/support/v7/
+* Libraries/recyclerview/bin/classes/android/support/v7/recyclerview/
+* Libraries/recyclerview/bin/classes/android/support/v7/recyclerview/BuildConfig.class
+* Libraries/recyclerview/bin/jarlist.cache
+* Libraries/recyclerview/bin/recyclerview_rss_1.jar
+* Libraries/recyclerview/bin/testactivity.jar
+* Libraries/recyclerview/gen/
+* Libraries/recyclerview/gen/android/
+* Libraries/recyclerview/gen/android/support/
+* Libraries/recyclerview/gen/android/support/v7/
+* Libraries/recyclerview/gen/android/support/v7/recyclerview/
+* Libraries/recyclerview/gen/android/support/v7/recyclerview/BuildConfig.java
+* Libraries/recyclerview/libs/
+* Libraries/recyclerview/libs/android-support-v7-recyclerview.jar
+* Libraries/recyclerview/project.properties
+* ic_launcher-web.png
+* proguard-project.txt
+From RecyclerView_Rss_1:
+* README.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:21.0.3
+android-support-v7-appcompat.jar => com.android.support:appcompat-v7:21.0.3
+gson-2.2.4.jar => com.google.code.gson:gson:2.2.4
+
+Potentially Missing Dependency:
+-------------------------------
+When we replaced the following .jar files with a Gradle dependency, we
+inferred the dependency version number from the filename. This
+specific version may not actually be available from the repository.
+If you get a build error stating that the dependency is missing, edit
+the version number to for example "+" to pick up the latest version
+instead. (This may require you to update your code if the library APIs
+have changed.)
+
+gson-2.2.4.jar => version 2.2.4 in com.google.code.gson:gson:2.2.4
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+android-support-v7-appcompat_rss => [com.android.support:appcompat-v7:21.0.3]
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In Cardview_lib_rss:
+* AndroidManifest.xml => cardview_lib_rss/src/main/AndroidManifest.xml
+* assets/ => cardview_lib_rss/src/main/assets/
+* res/ => cardview_lib_rss/src/main/res/
+* src/ => cardview_lib_rss/src/main/java/
+In RecyclerView_Rss_1:
+* AndroidManifest.xml => recyclerView_Rss_1/src/main/AndroidManifest.xml
+* assets/ => recyclerView_Rss_1/src/main/assets/
+* res/ => recyclerView_Rss_1/src/main/res/
+* src/ => recyclerView_Rss_1/src/main/java/
+In RSSReader:
+* AndroidManifest.xml => rSSReader/src/main/AndroidManifest.xml
+* assets/ => rSSReader/src/main/assets/
+* libs/okhttp-2.1.0-RC1.jar => rSSReader/libs/okhttp-2.1.0-RC1.jar
+* libs/okhttp-urlconnection-2.1.0-RC1.jar => rSSReader/libs/okhttp-urlconnection-2.1.0-RC1.jar
+* libs/okio-1.0.1.jar => rSSReader/libs/okio-1.0.1.jar
+* libs/otto-1.3.6.jar => rSSReader/libs/otto-1.3.6.jar
+* libs/picasso-2.4.0.jar => rSSReader/libs/picasso-2.4.0.jar
+* libs/retrofit-1.7.1.jar => rSSReader/libs/retrofit-1.7.1.jar
+* res/ => rSSReader/src/main/res/
+* src/ => rSSReader/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
